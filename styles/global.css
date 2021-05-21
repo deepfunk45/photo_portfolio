@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    position: fixed;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 1000;
+    color: #000;
+    mix-blend-mode: overlay;
+    letter-spacing: 0.2em;
+}
+div{
+    max-width: 1200px;
+    margin: 0 auto;
+}
